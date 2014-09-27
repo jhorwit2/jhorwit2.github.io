@@ -18,10 +18,6 @@ section {
     padding-top:40px;
 }
 
-.spacer {
-    height: 120px;
-}
-
 .page-scroll {
   color: #FFF;
 }
@@ -88,8 +84,8 @@ section {
     padding-bottom: 50px;
 }
 
-#about > .panel {
-    height: 400px;
+#about  {
+    height: 450px;
     font-size: 21px;
 }
 
@@ -120,18 +116,13 @@ section {
     border: 5px solid #fff;
 }
 
-@media only screen and (max-width: 1200px) {
-    #about > .panel {
-        height: 450px;
-    }
-}
 @media only screen and (max-width: 1000px) {
     .circle-img {
         display: none;
     }
 
-    #about > .panel {
-        height: 550px;
+    #about {
+        height: 575px;
     }
 
     #interests > .panel{
@@ -144,7 +135,7 @@ section {
         display: none;
     }
 
-    #about > .panel {
+    #about {
         height: 475px;
         font-size: 16px;
     }
@@ -160,7 +151,7 @@ section {
 }
 
 @media only screen and (max-width: 500px) {
-    #about > .panel {
+    #about {
         height: 550px;
         font-size: 14px;
     }
