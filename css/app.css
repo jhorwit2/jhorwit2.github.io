@@ -59,9 +59,7 @@ section {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-
     opacity: .9;
-
 }
 
 .text-vertical-center {
@@ -151,7 +149,7 @@ section {
 
 @media only screen and (max-width: 500px) {
     #about > .panel {
-        height: 525px;
+        height: 550px;
         font-size: 14px;
     }
 }
