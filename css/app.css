@@ -104,7 +104,7 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
-    .circle-img, .cross-img {
+    .cross-img {
         display: none;
     }
 
