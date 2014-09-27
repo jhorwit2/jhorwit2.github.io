@@ -13,6 +13,12 @@ header {
     color: white;
 }
 
+/* Anchor hack for bootstrap w/ fixed top navbar */
+section {
+    padding-top:40px;
+    margin-top:-40px;
+}
+
 .page-scroll {
   color: #FFF;
 }
@@ -21,6 +27,7 @@ header {
   color: #AAA;
 }
 
+/* give dropdown inverse color */
 .inverse-dropdown {
   background-color: #222;
   border-color: #080808;
@@ -44,11 +51,7 @@ header {
   background-color: #000;
 }
 
-section {
-    padding-top:40px;
-    margin-top:-40px;
-}
-
+/* header image */
 .header {
     display: table;
     position: relative;
@@ -62,6 +65,7 @@ section {
     opacity: .9;
 }
 
+/* Alignment */
 .text-vertical-center {
     display: table-cell;
     text-align: center;
