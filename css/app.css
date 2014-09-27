@@ -16,7 +16,10 @@ header {
 /* Anchor hack for bootstrap w/ fixed top navbar */
 section {
     padding-top:40px;
-    margin-top:-40px;
+}
+
+.spacer {
+    height: 120px;
 }
 
 .page-scroll {
@@ -117,6 +120,11 @@ section {
     border: 5px solid #fff;
 }
 
+@media only screen and (max-width: 1200px) {
+    #about > .panel {
+        height: 450px;
+    }
+}
 @media only screen and (max-width: 1000px) {
     .circle-img {
         display: none;
