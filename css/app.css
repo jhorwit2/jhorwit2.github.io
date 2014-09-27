@@ -152,7 +152,7 @@ section {
 
 @media only screen and (max-width: 500px) {
     #about {
-        height: 550px;
+        height: 600px;
         font-size: 14px;
     }
 }
