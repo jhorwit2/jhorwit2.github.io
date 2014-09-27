@@ -1,0 +1,139 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+body {
+    background-color: #ECECEA;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.inverse-dropdown {
+  background-color: #222;
+  border-color: #080808;
+}
+.inverse-dropdown > li > a {
+  color: #999;
+}
+.inverse-dropdown > li > a:hover {
+  color: #fff;
+  background-color: #000;
+}
+.inverse-dropdown > .divider {
+  background-color: #000;
+}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../images/desk.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-align-center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.rowpadding {
+    padding-bottom: 50px;
+}
+
+#about > .panel {
+    height: 400px;
+    font-size: 21px;
+}
+
+#interests > .panel{
+    height:650px;
+}
+
+
+.content {
+    background-color: white;
+}
+
+.circle-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border: 12px solid #fff;
+}
+
+.cross-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border: 5px solid #fff;
+}
+
+@media only screen and (max-width: 1000px) {
+    .circle-img {
+        display: none;
+    }
+
+    #about > .panel {
+        height: 550px;
+    }
+
+    #interests > .panel{
+        height: 1200px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .circle-img, .cross-img {
+        display: none;
+    }
+
+    #about > .panel {
+        height: 475px;
+        font-size: 16px;
+    }
+
+    #interests > .panel{
+        height: 1400px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #about > .panel {
+        height: 475px;
+        font-size: 14px;
+    }
+}
+
+.pre {
+    background-color: #FFF !important;
+}
+
+.pre.prettyprint {
+    border-color: #FFF !important;
+}

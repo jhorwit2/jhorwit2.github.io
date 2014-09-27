@@ -18,134 +18,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <style>
-
-    html,
-    body {
-        width: 100%;
-        height: 100%;
-    }
-
-
-
-    body {
-        background-color: #ECECEA;
-        font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    }
-
-    .inverse-dropdown {
-      background-color: #222;
-      border-color: #080808;
-    }
-    .inverse-dropdown > li > a {
-      color: #999;
-    }
-    .inverse-dropdown > li > a:hover {
-      color: #fff;
-      background-color: #000;
-    }
-    .inverse-dropdown > .divider {
-      background-color: #000;
-    }
-
-    .header {
-        display: table;
-        position: relative;
-        width: 100%;
-        height: 100%;
-        background: url(images/desk.jpg) no-repeat center center scroll;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-    }
-
-    .text-vertical-center {
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    .text-align-center {
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    .text-align-left {
-        text-align: left;
-    }
-
-    .rowpadding {
-        padding-bottom: 50px;
-    }
-
-    #about > .panel {
-        height: 600px;
-        font-size: 21px;
-    }
-
-    #interests > .panel{
-        height:650px;
-    }
-
-
-    .content {
-        background-color: white;
-    }
-
-    .circle-img {
-        width: 250px;
-        height: 250px;
-        border-radius: 200px;
-        -webkit-border-radius: 200px;
-        -moz-border-radius: 200px;
-        border: 12px solid #fff;
-    }
-
-    @media only screen and (max-width: 1000px) {
-        .circle-img {
-            display: none;
-        }
-
-        #about > .panel {
-            height: 600px;
-            font-size: 14px;
-        }
-
-        #interests > .panel{
-            height: 1200px;
-        }
-    }
-
-    @media only screen and (max-width: 700px) {
-        .circle-img {
-            display: none;
-        }
-
-        #about > .panel {
-            height: 600px;
-            font-size: 14px;
-        }
-
-        #interests > .panel{
-            height: 1400px;
-            font-size: 14px;
-        }
-
-        h1 {
-            font-size: 20px;
-        }
-    }
-
-    .pre {
-        background-color: #FFF !important;
-    }
-
-    .pre.prettyprint {
-        border-color: #FFF !important;
-    }
-
-    </style>
+    <link href="css/app.css" rel="stylesheet">
 
     <script>
         // This is a hack for navbar
@@ -217,36 +90,26 @@
         <div class="row panel">
             <div class="col-md-12">
                 <h1>
-                    About Me
+                    About Me <img class="img-responsive cross-img pull-right" src="images/cross.png" alt="Generic placeholder image">
+
                 </h1>
                 <hr>
             </div>
 
             <div class="col-xs-9">
-                <pre class="prettyprint" style="float:left;overflow-x: scroll;">
-    var Person = {
-        'name': 'Joshua Horwitz',
-        'sex': 'Male',
-        'email': 'HorwitzJA@gmail.com',
-        'experience': {
-            'Northrop Grumman': {
-                'title': 'Full Stack Developer',
-                'from': '07/2012',
-                'to': 'Present'
-            },
-            'George Mason University': {
-                'title': 'Software Developer',
-                'from': '01/2014',
-                'to': '06/2014'
-            },
-            'George Mason University': {
-                'title': 'CS Teaching Assistant',
-                'from': '01/2013',
-                'to': '03/2014'
-            }
-        }
-    };
-                </pre>
+                <p>
+                    My name is Josh Horwitz and I will be graduating from George Mason University in 2014 with a Bachelors in Computer Science.
+                    My passions include web development, application design, system design and system architecture.  For fun, I enjoy riding my
+                    motorcycle in the mountains.
+                </p>
+                <p>
+                    I have over 2 years of professional full stack developer experience and I'm currently working on a startup idea focused around
+                    the web. My goto web stack right now is the <a href="http://www.sitepoint.com/introduction-mean-stack/">MEAN stack</a>
+                    , but with <a href="http://krakenjs.com/">KrakenJS</a> thrown in.
+                </p>
+                <p>
+                    If you'd like to know more, then please shoot me an <a href="mailto:horwitzja@gmail.com">email</a>!
+                </p>
             </div>
             <div class="col-xs-3">
                 <img class="img-circle img-responsive circle-img pull-right" id="profile_circle" src="images/myself.png" alt="Generic placeholder image">
