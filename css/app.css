@@ -44,6 +44,11 @@ header {
   background-color: #000;
 }
 
+section {
+    padding-top:40px;
+    margin-top:-40px;
+}
+
 .header {
     display: table;
     position: relative;

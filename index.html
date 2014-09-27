@@ -23,14 +23,6 @@
     <!-- Custom CSS -->
     <link href="css/app.css" rel="stylesheet">
 
-    <script>
-        // This is a hack for navbar
-        window.addEventListener("hashchange", function () {
-            scrollBy(0, -50);
-        });
-
-    </script>
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -92,7 +84,7 @@
         </div>
     </header>
 
-    <div id="about" class="container">
+    <section id="about" class="container">
         <div class="row panel">
             <div class="col-md-12">
                 <h1>
@@ -120,9 +112,9 @@
                 <img class="img-circle img-responsive circle-img pull-right" id="profile_circle" src="images/myself.png" alt="Generic placeholder image">
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="interests" class="container">
+    <section id="interests" class="container">
         <div class="row text-align-center panel">
             <div class="col-md-12 rowpadding text-align-left">
                 <h1>
@@ -188,7 +180,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
     <!-- FOOTER -->
@@ -206,7 +198,7 @@
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
       ga('create', 'UA-55214329-1', 'auto');
       ga('send', 'pageview');
