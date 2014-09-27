@@ -125,7 +125,7 @@ body {
 
 @media only screen and (max-width: 500px) {
     #about > .panel {
-        height: 475px;
+        height: 525px;
         font-size: 14px;
     }
 }
