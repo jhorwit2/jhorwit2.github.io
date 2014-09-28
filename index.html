@@ -56,6 +56,9 @@
                         <a href="#interests">Interests</a>
                     </li>
                     <li data-toggle="collapse" data-target=".navbar-collapse">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li data-toggle="collapse" data-target=".navbar-collapse">
                         <a target="_blank" href="resume_online_version.pdf">Resume</a>
                     </li>
                   <li class="dropdown">
@@ -87,7 +90,7 @@
         </div>
     </header>
 
-    <section id="about" class="container panel">
+    <section id="about" class="container panel lead">
         <div class="row">
             <div class="col-md-12">
                 <h1>
@@ -191,10 +194,47 @@
         </div>
     </section>
 
-    <section id="projects-oscmapi" class="container panel feature-oscampi">
+    <section id="projects" class="container panel">
         <div class="container">
+            <div class="row text-align-center">
+                <div class="col-md-12 rowpadding text-align-left">
+                    <h1>
+                        Projects
+                    </h1>
+                    <hr>
+                </div>
+            </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-1 lead">
+                <div class="col-sm-2 item">
+                    <a href="http://www.github.com/jhorwit2">
+                        <img src="images/octocat.png" class="github-img"></img>
+                        <p>
+                            GitHub Profile
+                        </p>
+                    </a>
+
+                </div>
+                <div class="col-sm-9 lead">
+                    <p>
+                        My goal is to become more active in the open-source community. As of late, I have started to take an active roll in reporting
+                        issues, answering questions and trying to find the fix for bugs (I haven't had PRs yet, but hopefully that will change soon!).
+                    </p>
+                    <p>
+                        Currently, the open source repositories that I have are predominantly related to the <a href="#projects-oscmapi">Universal Map project</a>.
+                        I wrote a GeoJSON parser to be compliant with GoogleV3 and the <a href="http://cmapi.org/index.html">CMAPI specification</a>.
+                    </p>
+                    <p>
+                        My goals in the near future is to get my first PR accepted in a major repository that I find useful and contribute back to the OS community.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects-oscmapi" class="container panel feature-oscampi">
+        <div class="container lead">
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-1">
                   <h2>Universal Map</h2>
                     <p>
                         This project was funded by <a href="http://www.afei.org/events/4A07/Documents/1-DI2E%20Brochure%20ISA_10APR13.pdf">DI2E</a> and run

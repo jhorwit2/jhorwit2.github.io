@@ -84,11 +84,6 @@ section {
     padding-bottom: 50px;
 }
 
-#about  {
-    height: 450px;
-    font-size: 21px;
-}
-
 #interests > .panel{
     height:650px;
 }
@@ -116,23 +111,23 @@ section {
     border: 5px solid #fff;
 }
 
-
-.feature-oscampi {
-    height:700px;
-}
-
 .feature-image {
     background-color: #888;
     width: 600px;
     height: 400px;
 }
 
-@media only screen and (max-width: 1200px) {
+.github-img {
+    width: 150px;
+    height: 100px;
+}
 
-    .feature-oscampi {
-        height:800px;
-    }
-
+.item {
+    text-align:center;
+    display:block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float:left;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -140,29 +135,12 @@ section {
         display: none;
     }
 
-    #about {
-        height: 575px;
-    }
-
     #interests > .panel{
         height: 1200px;
-    }
-
-    .feature-oscampi {
-        height:850px;
     }
 }
 
 @media only screen and (max-width: 700px) {
-    .cross-img {
-        display: none;
-    }
-
-    #about {
-        height: 475px;
-        font-size: 16px;
-    }
-
     #interests > .panel{
         height: 1500px;
         font-size: 14px;
@@ -176,22 +154,9 @@ section {
         width: 400px;
         height: 300px;
     }
-
-    .feature-oscampi {
-        height:750px;
-    }
 }
 
 @media only screen and (max-width: 500px) {
-    #about {
-        height: 600px;
-        font-size: 14px;
-    }
-
-    .feature-oscampi {
-        height:850px;
-    }
-
     .feature-image {
         width: 275px;
         height: 225px;
