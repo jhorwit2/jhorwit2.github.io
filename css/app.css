@@ -116,6 +116,25 @@ section {
     border: 5px solid #fff;
 }
 
+
+.feature-oscampi {
+    height:700px;
+}
+
+.feature-image {
+    background-color: #888;
+    width: 600px;
+    height: 400px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .feature-oscampi {
+        height:800px;
+    }
+
+}
+
 @media only screen and (max-width: 1000px) {
     .circle-img {
         display: none;
@@ -127,6 +146,10 @@ section {
 
     #interests > .panel{
         height: 1200px;
+    }
+
+    .feature-oscampi {
+        height:850px;
     }
 }
 
@@ -148,11 +171,24 @@ section {
     h1 {
         font-size: 20px;
     }
+
+    .feature-image {
+        width: 400px;
+        height: 300px;
+    }
+
+    .feature-oscampi {
+        height:750px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     #about {
         height: 600px;
         font-size: 14px;
+    }
+
+    .feature-oscampi {
+        height:900px;
     }
 }
