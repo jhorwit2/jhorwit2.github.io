@@ -81,40 +81,23 @@ section {
 }
 
 .rowpadding {
-    padding-bottom: 50px;
-}
-
-#interests > .panel{
-    height:650px;
-}
-
-
-.content {
-    background-color: white;
+    padding-bottom: 20px;
 }
 
 .circle-img {
-    width: 250px;
-    height: 250px;
-    border-radius: 200px;
-    -webkit-border-radius: 200px;
-    -moz-border-radius: 200px;
-    border: 12px solid #fff;
+    width: 200px;
+    height: 200px;
 }
 
 .cross-img {
     width: 50px;
     height: 50px;
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border: 5px solid #fff;
 }
 
 .feature-image {
-    background-color: #888;
     width: 600px;
     height: 400px;
+    padding-top: 15px;
 }
 
 .github-img {
@@ -131,23 +114,12 @@ section {
     z-index:1;
 }
 
-@media only screen and (max-width: 1000px) {
-    .circle-img {
-        display: none;
-    }
-
-    #interests > .panel{
-        height: 1200px;
-    }
-}
-
 @media only screen and (max-width: 700px) {
-    #interests > .panel{
-        height: 1500px;
-        font-size: 14px;
+    h1 {
+        font-size: 24px;
     }
 
-    h1 {
+    h3 {
         font-size: 20px;
     }
 
