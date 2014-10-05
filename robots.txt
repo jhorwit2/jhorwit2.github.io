@@ -1,3 +1,3 @@
-User-agent: *
+User-agent: sistrix
 Disallow: /cgi-bin/
 Disallow: /resume_online_version.pdf
